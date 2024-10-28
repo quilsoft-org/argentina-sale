@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-23 15:20+0000\n"
+"POT-Creation-Date: 2024-10-02 22:05+0000\n"
 "PO-Revision-Date: 2023-01-13 13:50+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -28,6 +28,11 @@ msgstr "<br/><strong>Fecha de entrega: </strong>"
 #: model_terms:ir.ui.view,arch_db:l10n_ar_sale.report_saleorder_document
 msgid "<br/><strong>Expiration: </strong>"
 msgstr "<br/><strong>Vencimiento: </strong>"
+
+#. module: l10n_ar_sale
+#: model_terms:ir.ui.view,arch_db:l10n_ar_sale.report_saleorder_document
+msgid "<br/><strong>Incoterm:</strong>"
+msgstr ""
 
 #. module: l10n_ar_sale
 #: model_terms:ir.ui.view,arch_db:l10n_ar_sale.report_saleorder_document
@@ -88,7 +93,7 @@ msgstr "De acuerdo a la responsabilidad de IVA"
 #. module: l10n_ar_sale
 #: model:ir.model,name:l10n_ar_sale.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Plantilla de Plan de Cuentas"
+msgstr "Plantilla de plan contable"
 
 #. module: l10n_ar_sale
 #: model:ir.model.fields,field_description:l10n_ar_sale.field_sale_checkbook__active
@@ -108,7 +113,7 @@ msgstr "Compañía"
 #. module: l10n_ar_sale
 #: model:ir.model,name:l10n_ar_sale.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opciones de configuración"
+msgstr "Ajustes de configuración"
 
 #. module: l10n_ar_sale
 #: model:ir.model.fields,field_description:l10n_ar_sale.field_sale_checkbook__create_uid
