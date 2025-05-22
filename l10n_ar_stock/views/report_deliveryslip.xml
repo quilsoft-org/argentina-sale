@@ -114,7 +114,7 @@
         <div class="row mt-4 mb-4" position="move"/>
     </div> -->
 
-    <div id="l10n_ar_stock_div_hide" position="before">
+    <!-- <div id="l10n_ar_stock_div_hide" position="before">
         <div id="informations" class="row mt8 mb8">
             <div class="col-6">
                 <t t-set="partner" t-value="o.partner_id or (o.move_ids and o.move_ids[0].partner_id)"/>
@@ -185,7 +185,7 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 
     <table name="stock_move_line_table" position="after">
         <t t-if="o.book_id.report_signature_section and o.l10n_ar_afip_barcode">
