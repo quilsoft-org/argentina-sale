@@ -106,13 +106,13 @@
     <!-- remove default document title -->
     <h2 position="replace"/>
 
-    <div class="row mt-4 mb-4" position="after">
+    <!-- <div class="row mt-4 mb-4" position="after">
         <div t-if="0" id="l10n_ar_stock_div_hide">
         </div>
     </div>
     <div id="l10n_ar_stock_div_hide" position="inside">
         <div class="row mt-4 mb-4" position="move"/>
-    </div>
+    </div> -->
 
     <div id="l10n_ar_stock_div_hide" position="before">
         <div id="informations" class="row mt8 mb8">
